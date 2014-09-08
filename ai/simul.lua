@@ -22,6 +22,7 @@ motor = {
 		return t
 	end
 }
+
 function initMotor(m,J)
 	m.Ri = m.Uref / m.Imax  -- Ohmscher Widerstand
 	m.Km = m.Mmax / m.Imax  -- Drehmomentkonstante
